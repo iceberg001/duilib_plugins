@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="600,480" mininfo="400,300" caption="0,0,0,40">
+  <Font id="0" name="微软雅黑" size="12"/>
+  <Font id="1" name="微软雅黑" size="14"/>
+  <VerticalLayout bkcolor="#FFFFFFFF">
+    <HorizontalLayout height="40" bkcolor="#FFE8E8E8" inset="8,0,8,0">
+      <Button name="btn_import" text="导入插件DLL" width="120" height="28" bkcolor="#FF4CAF50" textcolor="#FFFFFFFF" font="0" align="center"/>
+      <Control/>
+
+    </HorizontalLayout>
+    <HorizontalLayout inset="4,4,4,4">
+      <VerticalLayout width="280" inset="4,4,4,4">
+        <Label text="组件列表" height="24" font="1" textcolor="#FF333333"/>
+        <List name="component_list" bkcolor="#FFFFFFFF" vscrollbar="true" border="1" bordercolor="#FFCCCCCC">
+          <ListHeader height="0"/>
+        </List>
+        <HorizontalLayout height="36" inset="0,4,0,0">
+          <Button name="btn_install" text="安装组件" width="120" height="28" bkcolor="#FF4CAF50" textcolor="#FFFFFFFF" font="0" align="center"/>
+          <Control/>
+        </HorizontalLayout>
+      </VerticalLayout>
+      <VerticalLayout inset="4,4,4,4">
+        <Label text="组件详情" height="24" font="1" textcolor="#FF333333"/>
+        <Label name="selected_component" text="(未选择)" height="24" font="0" textcolor="#FF666666"/>
+        <Text name="desc_text" text="请选择左侧组件列表中的组件查看描述" font="0" textcolor="#FF333333" multiline="true" vscrollbar="true" autovscroll="true"/>
+      </VerticalLayout>
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>

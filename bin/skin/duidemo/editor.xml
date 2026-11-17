@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="1024,720" caption="0,0,0,32" mininfo="800,600">
+  <Font id="0" name="宋体" size="12"/>
+  <VerticalLayout bkcolor="#FFECECEC">
+    <HorizontalLayout height="32" bkcolor="#FF0078D7" inset="4,4,4,4" childpadding="4">
+      <Button name="new_page_btn" text="新建页面" width="80" height="24" bkcolor="#FF0078D7" textcolor="#FFFFFFFF" hotbkcolor="#FF1F8CCD"/>
+      <Button name="save_page_btn" text="保存页面" width="80" height="24" bkcolor="#FF0078D7" textcolor="#FFFFFFFF" hotbkcolor="#FF1F8CCD"/>
+      <Button name="load_plugin_btn" text="导入插件" width="80" height="24" bkcolor="#FF0078D7" textcolor="#FFFFFFFF" hotbkcolor="#FF1F8CCD"/>
+      <Control/>
+      <Label name="editor_title" text="可视化页面编辑器" textcolor="#FFFFFFFF" font="0" width="200"/>
+      <Control/>
+      <Button name="closebtn" text="X" width="24" height="24" bkcolor="#FFE91E63" textcolor="#FFFFFFFF"/>
+    </HorizontalLayout>
+    <HorizontalLayout>
+      <VerticalLayout width="180" bkcolor="#FFF5F5F5" inset="2,2,2,2">
+        <Label text="组件列表" height="24" textcolor="#FF333333" font="0"/>
+        <List name="component_list" bkcolor="#FFFFFFFF" vscrollbar="true" border="1" bordercolor="#FFCCCCCC">
+          <ListHeader height="0"/>
+        </List>
+      </VerticalLayout>
+      <VerticalLayout inset="2,2,2,2">
+        <Label name="canvas_label" text="画布 - 拖拽组件到此处" height="20" textcolor="#FF666666" font="0"/>
+        <Container name="canvas" bkcolor="#FFFFFFFF" border="1" bordercolor="#FFCCCCCC"/>
+      </VerticalLayout>
+      <VerticalLayout width="240" bkcolor="#FFF5F5F5" inset="2,2,2,2">
+        <Label text="画布组件" height="22" textcolor="#FF333333" font="0"/>
+        <List name="canvas_component_list" bkcolor="#FFFFFFFF" vscrollbar="true" border="1" bordercolor="#FFCCCCCC" height="130">
+          <ListHeader height="0"/>
+        </List>
+        <Label text="属性面板" height="22" textcolor="#FF333333" font="0"/>
+        <VerticalLayout name="property_panel" bkcolor="#FFFFFFFF" border="1" bordercolor="#FFCCCCCC" vscrollbar="true" inset="4,4,4,4"/>
+      </VerticalLayout>
+    </HorizontalLayout>
+    <HorizontalLayout height="28" bkcolor="#FFE0E0E0" inset="2,2,2,2">
+      <Label text="页面页签:" height="20" textcolor="#FF333333" font="0" width="60" valign="vcenter"/>
+      <HorizontalLayout name="page_tabs" childpadding="2" inset="2,0,2,0"/>
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,14 @@
+2026/11/16-13:16:28.213 3e48 Reusing MANIFEST J:\DuiLib_Ultimate\bin\duidemo.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2026/11/16-13:16:28.220 3e48 Recovering log #28
+2026/11/16-13:16:28.299 3e48 Level-0 table #30: started
+2026/11/16-13:16:28.492 3e48 Level-0 table #30: 11977 bytes OK
+2026/11/16-13:16:28.612 3e48 Delete type=0 #28
+2026/11/16-13:16:28.698 4058 Compacting 4@0 + 1@1 files
+2026/11/16-13:16:29.263 4058 Generated table #32@0: 36 keys, 102576 bytes
+2026/11/16-13:16:29.263 4058 Compacted 4@0 + 1@1 files => 102576 bytes
+2026/11/16-13:16:29.346 4058 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/16-13:16:29.347 4058 Delete type=2 #19
+2026/11/16-13:16:29.347 4058 Delete type=2 #21
+2026/11/16-13:16:29.347 4058 Delete type=2 #24
+2026/11/16-13:16:29.350 4058 Delete type=2 #27
+2026/11/16-13:16:29.350 4058 Delete type=2 #30
